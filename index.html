@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="TR">
+<head>
+<meta charset="utf8">
+<title>Find markers in Google Maps API circle</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=drawing&v=weekly" defer></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+<br>
+<h1>Draw Polygon in get every latlng data Google Maps API</h1>
+<p>You will create a polygon. How can you get the values of each corner of the region? That's it.. </p>
+<p>Each latlng will be displayed with an alert when drawing is finished.</p>
+<b><p>We can do it</p></b>
+<a href="https://www.facebook.com/kadocolak"><img src="images/facebook.png" alt="facebook"></a> &nbsp;
+<a href="https://twitter.com/kadocolak"><img src="images/twitter.png" alt="twitter"></a> &nbsp;
+<a href="https://www.instagram.com/kadocolak"><img src="images/instagram.png" alt="instagram"></a> &nbsp;
+<a href="https://linkedin.com/in/kadocolak"><img src="images/linkedin.png" alt="linkedin"></a> &nbsp;
+<a href="https://www.youtube.com/channel/UCSIylRFKfj-_31nJxQLnuHg"><img src="images/youtube.png" alt="youtube"></a> &nbsp;
+<a href="https://medium.com/@kadircolak1999"><img src="images/medium.png" alt="medium"></a> &nbsp;
+<a href="https://kadocolak.blogspot.com"><img src="images/blogspot.png" alt="blogspot"></a> &nbsp;
+<div id="map"></div>
+</center>
+</body>
+</html>
+<script>
+$( document ).ready(function() {
+    $("a").attr("target","_blank");
+});
+</script>
+<script src="drawPolygon.js"></script>
